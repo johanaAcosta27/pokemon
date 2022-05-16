@@ -1,0 +1,132 @@
+.bkg{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    flex-wrap: wrap;
+}
+.select{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px ;
+  height: 2.5rem;
+  width: 10rem;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  background-color:rgb(184, 158, 158);
+  cursor: pointer;
+}
+.select.hover{
+    background: #d8e66c;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sel{
+  border: 2px solid rgb(184, 158, 158);
+  border-radius: 5px;
+  height: 2.5rem;
+  width: 8rem;
+  margin-right: 1rem;
+  font-size: 14px;
+  margin-top: 3rem;
+}
+.cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+}
+.paginado{
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+}
+.h1{
+  color:black;
+  border-radius: 20px;
+  font-size: 80px;
+  font-family: italic;
+  text-shadow: 2px 2px 2px black; 
+  margin-top: 1px;
+  display: flex;
+  /* justify-content: end; */
+}
+.refresh {
+  position:absolute;
+  top: 50px;
+  right: 28rem;
+  background-color: rgb(206, 45, 45);
+  border: none;
+  border-radius: 20px;
+  height: 3rem ;
+  width: 7rem;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 30px 4px 2px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.refresh:hover {
+  background: #b66666;
+  text-decoration: none;
+  cursor: pointer;
+}
+.containerNext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px ;
+  height: 1.6rem;
+  width: 1.7rem;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  background-color:rgb(184, 158, 158);
+  cursor: pointer;
+
+ 
+}
+.containerPre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1px ;
+  height: 1.6rem;
+  width: 1.7rem;
+  border: 1px solid rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  background-color:rgb(184, 158, 158);
+  cursor: pointer;
+  margin-left: 25px;
+}
+.containerPre:hover{
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: all 0.5s;
+  overflow: visible;
+  background-color: #b66666;
+  
+}
+.containerNext:hover{
+  cursor: pointer;
+  transform: scale(1.08);
+  transition: all 0.5s;
+  overflow: visible;
+  background-color: #b66666;
+ 
+  
+}
+.ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(24, 24, 24);
+  margin-top: 40px; 
+  margin-bottom: 5px; 
+  margin-left: 10px;
+}

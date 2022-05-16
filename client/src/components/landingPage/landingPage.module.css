@@ -1,0 +1,43 @@
+.landing{
+    background-image: url('../../icons/langingpage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+
+.wlc{
+    color: rgb(138, 15, 15);
+    font-style: italic;
+    position:relative;
+    font-size: 70px;
+    text-align: left;
+    margin-top: 10rem;
+   
+}
+.btn {
+    cursor: pointer;
+    background: rgb(138, 15, 15);
+    border-radius: 15px;
+    font-style:italic;
+    color: white;
+    font-size: 38px;
+    padding: 9px 23px 9px 23px;
+    text-decoration: none;
+    position:relative;
+    margin-top: 4%;
+    margin-left: 10px;
+    text-shadow: 3px 3px 3px black
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+   background:#b84242;
+   text-decoration: none;
+  cursor: pointer;
+  
+  }

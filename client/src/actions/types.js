@@ -1,0 +1,11 @@
+export const GET_POKEMON = 'GET_POKEMON';
+export const FILTER_TYPE = 'FILTER_TYPE';
+export const FILTER_CREATED = 'FILTER_CREATED';
+export const SORT_NAME = 'SORT_NAME';
+export const FILTER_BY_ATTACK = 'FILTER_BY_ATTACK';
+export const GET_NAME_POKEMON = 'GET_NAME_POKEMON';
+export const GET_TYPE = 'GET_TYPE';
+export const POST_POKEMON = 'POST_POKEMON';
+export const GET_BY_ID = 'GET_BY_ID';
+export const PUT_POKEMON = 'PUT_POKEMON';
+export const DELETE_POKEMON = 'DELETE_POKEMON';

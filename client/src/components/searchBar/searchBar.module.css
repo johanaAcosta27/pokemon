@@ -1,0 +1,32 @@
+.search{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  height: 2.5rem;
+  width: 10rem;
+
+}
+.btnsearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px ;
+  height: 2rem;
+  width: 8rem;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 2rem;
+  background-color:rgb(184, 158, 158);
+  cursor: pointer;
+  margin-right: 17px;
+}
+
+.btnsearch:hover {
+  background: #b66666;
+  text-decoration: none;
+  cursor: pointer;
+}
+.input{
+  border-radius: 4px;
+  height: 1,7rem;
+  margin-right: 4px;
+}

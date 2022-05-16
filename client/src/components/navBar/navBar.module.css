@@ -1,0 +1,67 @@
+.topnav {
+    background-color: #817c7c;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block; 
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .topnav .link-home:hover {
+    border-bottom: 2px solid red;
+  }
+.img {
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 2px;
+    left: 40px;
+
+  }
+.pokemon{
+    position:absolute;
+    top: 50px;
+    right: 15rem;
+    background-color: rgb(206, 45, 45);
+    border: none;
+    border-radius: 20px;
+    height: 3rem ;
+    width: 10rem;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 30px 4px 2px;
+    transition: 0.3s;
+    font-weight: bold;
+  }
+  
+  .pokemon:hover {
+    opacity: 1;
+  }
+  
+  .link-home {
+    font-size: 30px !important;
+    color: #000000 !important;
+    display: flex;
+    margin-left: 20rem;
+    margin-right: 36rem;
+ 
+  }
+  
+  .h1-navbar {
+    font-size: 25px;
+    color: #000000;
+  }
+  
